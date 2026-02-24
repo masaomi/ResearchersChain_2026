@@ -11,7 +11,7 @@
 # L0 GOVERNANCE - Defines what can exist in L0 (self-referential meta-rule)
 # =============================================================================
 skill :l0_governance do
-  version "1.1"
+  version "1.0"
   title "L0 Governance Rules"
   
   guarantees do
@@ -20,12 +20,14 @@ skill :l0_governance do
   end
   
   evolve do
-    allow :content
-    deny :behavior
-    deny :guarantees
+    allow :content           # Documentation can be updated
+    deny :behavior           # Governance logic is fixed
+    deny :guarantees         # Self-referential guarantee is fixed
   end
   
   behavior do
+    # Returns the canonical L0 governance configuration
+    # This is the authoritative source; config.yml is fallback only
     {
       allowed_skills: [
         :core_safety,
@@ -35,13 +37,13 @@ skill :l0_governance do
         :approval_workflow,
         :self_inspection,
         :chain_awareness,
-        :audit_rules,
-        :skill_generator
+        :audit_rules
       ],
       immutable_skills: [:core_safety],
       require_human_approval: true,
       blockchain_mode: :full,
       
+      # Pure Agent Skill criteria (from SPEC-010)
       purity_requirements: {
         all_criteria_in_l0: true,
         no_external_justification: true,
@@ -70,7 +72,6 @@ skill :l0_governance do
     | self_inspection | Self-examination capability | No |
     | chain_awareness | Blockchain state awareness | No |
     | audit_rules | Knowledge health checks | No |
-    | skill_generator | Meta-skill: generate and evaluate research skills | No |
     
     ### Adding New L0 Skills
     

@@ -1,16 +1,17 @@
 ---
 name: skill_generator
-description: "Meta-skill v1.0: generate and evaluate researcher-specific skills from conversation. Core engine of AFD evolution."
-tags: [meta-skill, evolution, skill-generation, quality-rubric]
-version: "1.0"
+description: "Meta-skill v2.0: generate and evaluate research skills from multiple sources. Core engine of AFD evolution."
+tags: [meta-skill, evolution, skill-generation, quality-rubric, multi-source]
+version: "2.0"
+domain: general
 ---
-# Skill Generator v1.0
+# Skill Generator v2.0
 
-Meta-skill for generating and evaluating researcher-specific skills.
-This is the core engine of AFD (Agent-First Driven Development) evolution.
+Meta-skill for generating and evaluating research skills from diverse sources.
+Core engine of Agent-First Driven Development (AFD) evolution.
 
-**Bottleneck awareness** (Gemini insight): skill_generator's quality determines
-the quality of the entire system's evolution. Start lightweight, strengthen with experience.
+**v2.0 change**: Source-agnostic architecture. Skills can emerge from any knowledge source,
+not just conversation patterns. Quality gate (evaluate) is unified across all sources.
 
 ## Evolution Criteria
 
@@ -33,27 +34,52 @@ New skills MUST satisfy at least one:
 | philosophy | Scientific philosophy, reasoning rigor |
 | assistance | Literature management, protocols, lab notes |
 | reproducibility | Reproducibility, environment recording, automation |
+| machine_learning | Model selection, validation, interpretation |
+| data_engineering | Data preprocessing, cleaning, EDA |
+| visualization | Data visualization, accessibility |
+
+## Domain Tags
+
+| Tag | Description |
+|-----|-------------|
+| general | Cross-domain, applicable to any field |
+| genomics | Genomics, bioinformatics specific |
+| ml | Machine learning specific |
 
 ## Priority Rules
 
-- **P0**: Skills that directly improve reproducibility/statistical validity/ethical safety → deploy first
-- **P1**: Skills that improve research speed
+- **P0**: Directly improves reproducibility/statistical validity/ethical safety → deploy first
+- **P1**: Improves research speed or expands capability
 - **P2**: Labor-saving (only if no quality degradation)
 
 ## Tool 1: draft_research_skill
 
-### Purpose
-Draft a new research skill based on conversation analysis.
-
 ### Required Inputs
-- **topic** (string): Skill topic (e.g., research_planning, peer_review)
+- **topic** (string): Skill topic
 - **category** (string): Taxonomy tag from the table above
+- **domain** (string): Domain tag — general | genomics | ml
 - **justification** (string): Which evolution criterion this satisfies and why
+
+### Source Tracking (v2.0 new)
+- **source.type**: conversation | deep_research | persona_assembly | literature | pipeline | meeting_place
+- **source.reference**: URL, session ID, DOI, pipeline run ID, etc.
+- **source.evidence_level**: anecdotal | systematic | consensus | empirical
+
+### Evidence Levels
+
+| Level | Description | Example Source |
+|-------|-------------|---------------|
+| anecdotal | Single observation, not systematically verified | One-time conversation pattern |
+| systematic | Structured search or survey | Deep Research, literature review |
+| consensus | Agreement from multiple perspectives | Persona Assembly discussion |
+| empirical | Validated through actual execution/experimentation | Pipeline results, benchmarks |
 
 ### Output
 ```yaml
 proposed_skill: <topic>
 category: <category>
+domain: <domain>
+source: {type: <type>, reference: <ref>, evidence_level: <level>}
 justification: <justification>
 status: drafted
 next_step: "Evaluate via evaluate_skill_proposal, then save to L2 via context_save"
@@ -61,14 +87,11 @@ next_step: "Evaluate via evaluate_skill_proposal, then save to L2 via context_sa
 
 ## Tool 2: evaluate_skill_proposal
 
-### Purpose
-Self-evaluate a drafted skill against evolution criteria and quality rubric.
-
 ### Required Inputs
 - **skill_draft** (string): The drafted skill definition to evaluate
 - **existing_skills** (string, optional): List of existing skills for duplication check
 
-### Quality Rubric (Codex proposal, 100 points)
+### Quality Rubric (100 points)
 
 | Axis | Points | Description |
 |------|--------|-------------|
@@ -77,6 +100,11 @@ Self-evaluate a drafted skill against evolution criteria and quality rubric.
 | Research ethics safety | 20 | No ethical violations or privacy risks? |
 | Utility | 20 | Contributes to speed improvement or cognitive load reduction? |
 | Non-duplication | 15 | Not duplicating existing skills? |
+
+### Rubric Adjustment by Evidence Level
+- **empirical/consensus**: Higher initial trust → standard bar for L1 promotion
+- **anecdotal**: Requires longer L2 validation period before promotion
+- **systematic**: Standard evaluation
 
 ### Judgment Criteria
 - **80+ points**: L1 candidate → proceed to skills_promote
@@ -96,25 +124,11 @@ next_step: "Submit via skills_promote for Persona Assembly review"
 ## Workflow
 
 ```
-Conversation pattern recognized
-  → draft_research_skill(topic, category, justification)
+Knowledge source recognized (conversation, research, assembly, literature, pipeline)
+  → draft_research_skill(topic, category, domain, justification, source)
   → evaluate_skill_proposal(skill_draft, existing_skills)
   → context_save() to L2 (Small Batch: 3-5 items)
   → 1-2 weeks of usage validation
   → skills_promote(analyze) with Persona Assembly
   → skills_promote(promote) L2→L1 (rubric score >= 60)
 ```
-
-## Future Evolution (v2.0)
-
-After accumulating 10+ skills:
-- Add inputs: risk_level, required_evidence, examples
-- Add output: test_plan (minimum 3 cases), duplication_report
-- Add quality gates: duplication check, danger check, evidence check (automated)
-- Quantitative rubric scoring (100-point scale, automated)
-
-## Future Evolution (v3.0)
-
-- Persona Assembly integration (evaluate_skill_proposal auto-invokes assembly)
-- Operational KPI tracking: proposal_acceptance_rate, rollback_rate
-- Self-improvement: meta-skill rubric weight re-calibration
