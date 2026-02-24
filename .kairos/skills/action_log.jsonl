@@ -1,0 +1,2 @@
+{"timestamp":"2026-02-24T07:36:56+01:00","action":"instructions_created","skill_id":"instructions:researcher","details":{"mode_name":"researcher","next_hash":"4f6cd5bd71e3af9fbea8e1efc1417d63a0c1b671593ffa9988c395cc3df6b3ea","reason":"Establish researcher identity and constitution for ResearchersChain (AFD Phase 2)"}}
+{"timestamp":"2026-02-24T07:37:11+01:00","action":"instructions_mode_changed","skill_id":"instructions_mode","details":{"prev_mode":"user","new_mode":"researcher","reason":"Activate researcher identity — MCP接続時にresearcher.mdがsystem promptに注入される (AFD Phase 2)"}}

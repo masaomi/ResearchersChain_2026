@@ -1,0 +1,182 @@
+[
+  {
+    "index": 0,
+    "timestamp": "1970-01-01T00:00:00.000000Z",
+    "data": [
+      "Genesis Block"
+    ],
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "merkle_root": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "19bcc95a7b5946ca2c1029728cb623975c2807690f8fd354ca6799878c4b7efd"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-02-24T06:36:56.279299Z",
+    "data": [
+      "{\"skill_id\":\"instructions:researcher\",\"prev_ast_hash\":\"nil\",\"next_ast_hash\":\"4f6cd5bd71e3af9fbea8e1efc1417d63a0c1b671593ffa9988c395cc3df6b3ea\",\"diff_hash\":\"95c3510895c31e59179db0e57c262d8be5d2be4b980ab1f8a62d7c7c2273cab7\",\"actor\":\"AI\",\"agent_id\":\"Kairos\",\"timestamp\":\"2026-02-24T07:36:56+01:00\",\"reason_ref\":\"create_instructions: Establish researcher identity and constitution for ResearchersChain (AFD Phase 2)\"}"
+    ],
+    "previous_hash": "19bcc95a7b5946ca2c1029728cb623975c2807690f8fd354ca6799878c4b7efd",
+    "merkle_root": "2f1d5325fe9f77cd18a29578035cfaeb8d0e84703800ac49b8fca838c7f971d5",
+    "hash": "6a580e822fd4d27217f2aecfae4062518ac6a3ec7f3d83999ab5dffc3bee87c9"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-02-24T06:37:11.079242Z",
+    "data": [
+      "{\"skill_id\":\"instructions:researcher\",\"prev_ast_hash\":\"04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb\",\"next_ast_hash\":\"3588bb7219b1faa3d01f132a0c60a394258ccc3049d8e4a243b737e62524d147\",\"diff_hash\":\"02baca42df2eadfc7b75a236cf113f7903d355d367ef64ffcd3f0e7b656ec5c7\",\"actor\":\"AI\",\"agent_id\":\"Kairos\",\"timestamp\":\"2026-02-24T07:37:11+01:00\",\"reason_ref\":\"set_instructions_mode: Activate researcher identity — MCP接続時にresearcher.mdがsystem promptに注入される (AFD Phase 2)\"}"
+    ],
+    "previous_hash": "6a580e822fd4d27217f2aecfae4062518ac6a3ec7f3d83999ab5dffc3bee87c9",
+    "merkle_root": "f2b78c68bbd65ac3fcd93ed605e74b738e7880662fc6eb206639495f973e76af",
+    "hash": "b5e030501edebf0e93ebd717dbe57af21f2be2fef0bdbfb90772034d7c604740"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-02-24T06:43:10.583773Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"skill_generator\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"44e7b12aca156a1cbc3a84ea83f4679f42de82fd5512ff014a12cc5e8ef41183\",\"reason\":\"Add skill_generator v1.0 as L1 knowledge. Core engine of AFD evolution — meta-skill for generating and evaluating researcher skills (AFD Phase 3)\",\"timestamp\":\"2026-02-24T07:43:10+01:00\"}"
+    ],
+    "previous_hash": "b5e030501edebf0e93ebd717dbe57af21f2be2fef0bdbfb90772034d7c604740",
+    "merkle_root": "b8249540f842ef786fdcf10b5fc7b840ffee25012da58e88500603488c3fcfd5",
+    "hash": "24a3385d15c12ddca040a6efda20e4161ac635fd45b466596a30b4f5c20f90f7"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-02-24T06:44:10.273820Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"genomics_basics\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"e1f8c261f6b44edca55e5538dc6dfb7a9e4fe65e52e39b0c0656abb5f66bc724\",\"reason\":\"Initial L1 knowledge: genomics foundations (AFD Phase 4)\",\"timestamp\":\"2026-02-24T07:44:10+01:00\"}"
+    ],
+    "previous_hash": "24a3385d15c12ddca040a6efda20e4161ac635fd45b466596a30b4f5c20f90f7",
+    "merkle_root": "6a7d707e8eb299459655b81fa1226cd6da9daf312615ab541a7d3aea43ef4432",
+    "hash": "c4f32e8b96d10d7fbd0d310901cad11d48eb3f664424d483d8fae7cd8b34e70e"
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-02-24T06:44:15.847555Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"journal_standards\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"20a92d3d88362677b53e57dd8f58bb17e4f295b76bdec0e0726f5589bc470447\",\"reason\":\"Initial L1 knowledge: journal standards (AFD Phase 4)\",\"timestamp\":\"2026-02-24T07:44:15+01:00\"}"
+    ],
+    "previous_hash": "c4f32e8b96d10d7fbd0d310901cad11d48eb3f664424d483d8fae7cd8b34e70e",
+    "merkle_root": "e3d47d81540f19e4d3e94dbed3e4563aabc7fcf3f7b00172cc4c91533b6bde86",
+    "hash": "5eaf639944c89448411b4e9783ef1864e2c6dd58d21ea0bed5369dca11d4443a"
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-02-24T06:44:19.496634Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"ngs_pipelines\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"44a6952634b2f6d4549938bd768862dc23ba9a66b0e92cb23fba5c275f8a5163\",\"reason\":\"Initial L1 knowledge: NGS pipeline patterns (AFD Phase 4)\",\"timestamp\":\"2026-02-24T07:44:19+01:00\"}"
+    ],
+    "previous_hash": "5eaf639944c89448411b4e9783ef1864e2c6dd58d21ea0bed5369dca11d4443a",
+    "merkle_root": "5ecc74ee1a07062ba2136ae68034200bcb7135346cefdd6141853499c699579a",
+    "hash": "33af246501e534ab72acc3a7b17e701a85771fce65956c7f3767a4dbcba63108"
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-02-24T06:47:38.466423Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"test_selection_advisor\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"e33864d8e2984c6a4a0d18602171956fad0613504afc74958a309bce42e89a5b\",\"reason\":\"L2→L1 promotion: P0 statistics skill — test_selection_advisor (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:47:38+01:00\"}"
+    ],
+    "previous_hash": "33af246501e534ab72acc3a7b17e701a85771fce65956c7f3767a4dbcba63108",
+    "merkle_root": "ae7d923f7c094700cfaea916ed7a639e6778ae0e150670688e7eac61c8dc2a8f",
+    "hash": "3bad7f4bc6461b7e4624dddec8ed5fbd795eff86e5e78ded05d5f3a8cda519c8"
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-02-24T06:47:39.478864Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"power_analysis_planner\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"6913707822726bd94da9a85170e4c4b07694c633fa0a196ae4ce53a749a55309\",\"reason\":\"L2→L1 promotion: P0 statistics skill — power_analysis_planner (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:47:39+01:00\"}"
+    ],
+    "previous_hash": "3bad7f4bc6461b7e4624dddec8ed5fbd795eff86e5e78ded05d5f3a8cda519c8",
+    "merkle_root": "cbace4fdc8b882c0a70de9eea0506e0ddd2df148e13f93039de1e1055d73331b",
+    "hash": "46aceba78c06a8f9675ef939e1e1dcbb6570c59b26edee820c8a54d53fc6b9a5"
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-02-24T06:47:40.177286Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"effect_size_interpreter\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"1604dcea4b1fe2b2198d02de75034ce197402257ef3d628788066bc81fa21ffb\",\"reason\":\"L2→L1 promotion: P0 statistics skill — effect_size_interpreter (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:47:40+01:00\"}"
+    ],
+    "previous_hash": "46aceba78c06a8f9675ef939e1e1dcbb6570c59b26edee820c8a54d53fc6b9a5",
+    "merkle_root": "ccbb4d6b036f0abfd5603ddeb865f5092ef437c30deee7e5c88a8885bcc78e9c",
+    "hash": "5b1bc91e91dca38788e070ff029a1801cd6a6e2382d04717a90aa66bb6059a21"
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-02-24T06:47:46.872377Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"multiple_testing_controller\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"6d1f57fe434e5a89d9dd146ae5cf809b35f0a2308e0a50257e2c5eff30b80fa9\",\"reason\":\"L2→L1 promotion: P0 statistics skill — multiple_testing_controller (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:47:46+01:00\"}"
+    ],
+    "previous_hash": "5b1bc91e91dca38788e070ff029a1801cd6a6e2382d04717a90aa66bb6059a21",
+    "merkle_root": "93edb2e176060c83902d4197a7c142833fed28e050e8aac0132bcef205eafc53",
+    "hash": "092c4d69a522bdd604eafac3eff24d2d5cdb95e2925ae24de4d224090196481b"
+  },
+  {
+    "index": 11,
+    "timestamp": "2026-02-24T06:47:58.944118Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"privacy_risk_preflight\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"65d01b301093e74fe10c29e1be93cc7fac4fbb231b7210e10b4d47e007034d15\",\"reason\":\"L2→L1 promotion: P0 ethics skill — privacy_risk_preflight (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:47:58+01:00\"}"
+    ],
+    "previous_hash": "092c4d69a522bdd604eafac3eff24d2d5cdb95e2925ae24de4d224090196481b",
+    "merkle_root": "650741e90821de64f50109d5495efbbfd4a6a91b465f7d08db7b55f400014564",
+    "hash": "38e58299dfa3eb485222ec97383a8a5f3948574cc1a406fbb69d9731efad9bec"
+  },
+  {
+    "index": 12,
+    "timestamp": "2026-02-24T06:48:05.782985Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"consent_scope_checker\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"569546c372c4a22f589f750f0de8d3904eab38125dc35aea67bee192555315bf\",\"reason\":\"L2→L1 promotion: P0 ethics skill — consent_scope_checker (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:48:05+01:00\"}"
+    ],
+    "previous_hash": "38e58299dfa3eb485222ec97383a8a5f3948574cc1a406fbb69d9731efad9bec",
+    "merkle_root": "5ef20a8d02dc7881e43e2e65ceffe4cf86d23320069af71e66bb800fbbb62aa7",
+    "hash": "362b0666f96357a6bec8d010701e29641b9356421c69a1368cd1b2c2bf26b9d8"
+  },
+  {
+    "index": 13,
+    "timestamp": "2026-02-24T06:48:12.874168Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"data_governance_auditor\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"c4b6fcd84fd5a58451b7aab624f6aa001dc61454e90642c5e0ebfc8efa6125dc\",\"reason\":\"L2→L1 promotion: P0 ethics skill — data_governance_auditor (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:48:12+01:00\"}"
+    ],
+    "previous_hash": "362b0666f96357a6bec8d010701e29641b9356421c69a1368cd1b2c2bf26b9d8",
+    "merkle_root": "840674a9ffd81ae653bb00b0654113f6084b91b0bfe70487384bab3c136aac51",
+    "hash": "c6fe54f79a1e305be939592497b6d5daf55e052f246c37717ec5a51ef9b5bfda"
+  },
+  {
+    "index": 14,
+    "timestamp": "2026-02-24T06:48:25.557942Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"analysis_environment_recorder\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"2cb8f7b01319a0e74ce54010a535b36b29c452945bb26ace0427e7f8538d5824\",\"reason\":\"L2→L1 promotion: P0 reproducibility skill — analysis_environment_recorder (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:48:25+01:00\"}"
+    ],
+    "previous_hash": "c6fe54f79a1e305be939592497b6d5daf55e052f246c37717ec5a51ef9b5bfda",
+    "merkle_root": "b8879f0038fb664e7cde721ca8ea1d70bb7dc3a43a2763ea9c5d2b73872f295c",
+    "hash": "db6ff85be95baa8963b9a3707a404c82921abcf0a753f2a9c41ce7a386d7d950"
+  },
+  {
+    "index": 15,
+    "timestamp": "2026-02-24T06:48:32.917740Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"seed_and_version_enforcer\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"9cde85af48f4a0a5c163091538030677d47060f289749d3c474d9d92a18e9a03\",\"reason\":\"L2→L1 promotion: P0 reproducibility skill — seed_and_version_enforcer (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:48:32+01:00\"}"
+    ],
+    "previous_hash": "db6ff85be95baa8963b9a3707a404c82921abcf0a753f2a9c41ce7a386d7d950",
+    "merkle_root": "e9b2613975de02f0a659c4d1b35ad6aef4762f2d95f28a4241b14e215c336faa",
+    "hash": "791ee3a1c224c1450e63e548dd2351f786484a5253dcee086c1ec2a908363b8c"
+  },
+  {
+    "index": 16,
+    "timestamp": "2026-02-24T06:48:42.506226Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"provenance_chain_builder\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"e81689afc65764aa9936caf68c67a42960c1f512bd2a04d0f336a1b30c59c593\",\"reason\":\"L2→L1 promotion: P0 reproducibility skill — provenance_chain_builder (AFD Phase 6)\",\"timestamp\":\"2026-02-24T07:48:42+01:00\"}"
+    ],
+    "previous_hash": "791ee3a1c224c1450e63e548dd2351f786484a5253dcee086c1ec2a908363b8c",
+    "merkle_root": "aa0bc10ed01ba059f54bd3023d2b14e58a4b0065a8deea943af79bf49bd12d63",
+    "hash": "ff36384f9c5560010f5b502d0368c0af35ee41dbbe9d1100e3eb62ba4239ecf6"
+  },
+  {
+    "index": 17,
+    "timestamp": "2026-02-24T06:49:33.108344Z",
+    "data": [
+      "{\"type\":\"state_commit\",\"commit_type\":\"explicit\",\"actor\":\"human\",\"prev_snapshot_hash\":null,\"next_snapshot_hash\":\"f3848ce8035131617a8fbb182a6febf49a8df5eee41dff0fd2f1c2612afdbe40\",\"snapshot_ref\":\"snapshots/snapshot_20260224_074933_f3848ce8.json\",\"summary\":{\"L0_changed\":true,\"L1_added\":33,\"L1_modified\":0,\"L1_deleted\":0,\"L2_sessions_added\":1,\"L2_sessions_deleted\":0,\"promotions\":0,\"demotions\":0,\"total_changes\":35},\"reason\":\"ResearchersChain AFD foundation: researcher.md constitution, skill_generator v1.0 meta-skill, 3 L1 knowledge (genomics_basics, journal_standards, ngs_pipelines), 10 P0 skills promoted L2→L1 (statistics: 4, ethics: 3, reproducibility: 3)\",\"timestamp\":\"2026-02-24T07:49:33+01:00\"}"
+    ],
+    "previous_hash": "ff36384f9c5560010f5b502d0368c0af35ee41dbbe9d1100e3eb62ba4239ecf6",
+    "merkle_root": "0e42c6513463c7381b19ab0541a20c8268efe9a7efa1ef0b030d09d77d6db7e3",
+    "hash": "1acbee08855ff3607c031ccdab5fdf1ff15eba45be78207ba510b14810f569be"
+  }
+]
