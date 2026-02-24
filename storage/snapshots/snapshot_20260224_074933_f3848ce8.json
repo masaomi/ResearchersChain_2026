@@ -1,0 +1,586 @@
+{
+  "snapshot_hash": "f3848ce8035131617a8fbb182a6febf49a8df5eee41dff0fd2f1c2612afdbe40",
+  "created_at": "2026-02-24T07:49:33+01:00",
+  "created_by": "human",
+  "commit_type": "explicit",
+  "reason": "ResearchersChain AFD foundation: researcher.md constitution, skill_generator v1.0 meta-skill, 3 L1 knowledge (genomics_basics, journal_standards, ngs_pipelines), 10 P0 skills promoted L2→L1 (statistics: 4, ethics: 3, reproducibility: 3)",
+  "layers": {
+    "L0": {
+      "dsl_file_hash": "66971ad51bc4bf48ac5912bf5a178e3f3be5842297f11533938dd0b8f5ab45dc",
+      "md_file_hash": "33f1227e6e2b4188359276bc6fe7dea54041ee76bccfd9bff9c113b76b9cd8fd",
+      "skill_count": 8,
+      "skills": [
+        {
+          "id": "approval_workflow",
+          "version": "1.1",
+          "hash": "36a1450fbc84aa0949995a262a20e1bb51a2ef5904d7e77a92e2d21efdbaeac7"
+        },
+        {
+          "id": "audit_rules",
+          "version": "1.0",
+          "hash": "c9694e87142dd397a72329f24315ef845fbc8f67b9d13f54f44b2c76e02ff352"
+        },
+        {
+          "id": "chain_awareness",
+          "version": "1.1",
+          "hash": "b9be17b9fffc7ec6be5592c03241f52099da6f72a5a64a86d35f9116d4d4c4b9"
+        },
+        {
+          "id": "core_safety",
+          "version": "1.1",
+          "hash": "c8767a2b32edb6ffc0c5dbece847c7498c41459f7cea27023981c5ef3403acd7"
+        },
+        {
+          "id": "evolution_rules",
+          "version": "1.0",
+          "hash": "40c92278c183e3cc31ba6fc59acac41b4ce710bcd47f1b8ee76fc599a62cd82f"
+        },
+        {
+          "id": "l0_governance",
+          "version": "1.0",
+          "hash": "e97360b2cc49bde0915590ffe8c850cd4c9a51b89cba0ddb73be7af72078de9e"
+        },
+        {
+          "id": "layer_awareness",
+          "version": "1.0",
+          "hash": "bd78023ce62b260e2be5d718b3d635b5b46584d445c8c3f4fda25489e222e875"
+        },
+        {
+          "id": "self_inspection",
+          "version": "1.1",
+          "hash": "0c808d59f026e120ab23dcf646df88c18160bbe9dbb66dfda3ac7f7aaffdd682"
+        }
+      ],
+      "manifest_hash": "2d3b943d32f069b46a6832d831fa86a46d017fb287731bb526deaee2e3db4bde"
+    },
+    "L1": {
+      "knowledge_count": 33,
+      "archived_count": 0,
+      "knowledge": [
+        {
+          "name": "analysis_environment_recorder",
+          "version": null,
+          "hash": "2cb8f7b01319a0e74ce54010a535b36b29c452945bb26ace0427e7f8538d5824",
+          "tags": [
+            "reproducibility",
+            "P0",
+            "environment",
+            "versioning"
+          ]
+        },
+        {
+          "name": "consent_scope_checker",
+          "version": null,
+          "hash": "569546c372c4a22f589f750f0de8d3904eab38125dc35aea67bee192555315bf",
+          "tags": [
+            "ethics",
+            "P0",
+            "consent",
+            "compliance"
+          ]
+        },
+        {
+          "name": "data_governance_auditor",
+          "version": null,
+          "hash": "c4b6fcd84fd5a58451b7aab624f6aa001dc61454e90642c5e0ebfc8efa6125dc",
+          "tags": [
+            "ethics",
+            "P0",
+            "governance",
+            "FAIR",
+            "compliance"
+          ]
+        },
+        {
+          "name": "effect_size_interpreter",
+          "version": null,
+          "hash": "1604dcea4b1fe2b2198d02de75034ce197402257ef3d628788066bc81fa21ffb",
+          "tags": [
+            "statistics",
+            "P0",
+            "effect-size",
+            "reporting"
+          ]
+        },
+        {
+          "name": "example_knowledge",
+          "version": "1.0",
+          "hash": "a0cc946548ff44c19f1ae8bfdbee3eafec041bb3a2efe332fc0e78e5c239d4d3",
+          "tags": [
+            "example",
+            "documentation"
+          ]
+        },
+        {
+          "name": "genomics_basics",
+          "version": null,
+          "hash": "e1f8c261f6b44edca55e5538dc6dfb7a9e4fe65e52e39b0c0656abb5f66bc724",
+          "tags": [
+            "genomics",
+            "foundation",
+            "reference"
+          ]
+        },
+        {
+          "name": "hestiachain_meeting_place",
+          "version": 2.0,
+          "hash": "bc976280d5619dbada72339c3cb845be2a86e8eeff4d4cddb5cb997aba4860dc",
+          "tags": [
+            "documentation",
+            "readme",
+            "hestia",
+            "meeting-place",
+            "p2p",
+            "deployment",
+            "trust-anchor"
+          ]
+        },
+        {
+          "name": "hestiachain_meeting_place_jp",
+          "version": 2.0,
+          "hash": "8435ca033ef035f8add9ab2673e2ddc45fd3e81357a2a0dda9f53ecee7d1e9e5",
+          "tags": [
+            "documentation",
+            "readme",
+            "hestia",
+            "meeting-place",
+            "p2p",
+            "deployment",
+            "trust-anchor"
+          ]
+        },
+        {
+          "name": "journal_standards",
+          "version": null,
+          "hash": "20a92d3d88362677b53e57dd8f58bb17e4f295b76bdec0e0726f5589bc470447",
+          "tags": [
+            "publishing",
+            "journals",
+            "writing"
+          ]
+        },
+        {
+          "name": "kairoschain_design",
+          "version": 1.0,
+          "hash": "ee984faebefba50c3d8efdef49617b610f42f0848b6809d47a67e564051622bc",
+          "tags": [
+            "documentation",
+            "readme",
+            "design",
+            "architecture",
+            "directory-structure"
+          ]
+        },
+        {
+          "name": "kairoschain_design_jp",
+          "version": 1.0,
+          "hash": "9d394ce2fa2997e14e70dd304ac3c41a0b40d5b3046766eb5f0ec252a486b28e",
+          "tags": [
+            "documentation",
+            "readme",
+            "design",
+            "architecture",
+            "directory-structure"
+          ]
+        },
+        {
+          "name": "kairoschain_faq",
+          "version": 1.0,
+          "hash": "2fa5d013a8e4436c8617a43f663912e0fbc0c18da2b457a9bad9ee86a20da578",
+          "tags": [
+            "documentation",
+            "readme",
+            "faq",
+            "subtree",
+            "integration"
+          ]
+        },
+        {
+          "name": "kairoschain_faq_jp",
+          "version": 1.0,
+          "hash": "389ff47582666a1910f1f043151f667198c2fe4c44caf0da977aded810f2d5d0",
+          "tags": [
+            "documentation",
+            "readme",
+            "faq",
+            "subtree",
+            "integration"
+          ]
+        },
+        {
+          "name": "kairoschain_operations",
+          "version": 1.1,
+          "hash": "88770f330783e40d49e4b037775efa4337aa3d77caa441d4d443dab6c501257c",
+          "tags": [
+            "documentation",
+            "readme",
+            "operations",
+            "deployment",
+            "roadmap",
+            "backup"
+          ]
+        },
+        {
+          "name": "kairoschain_operations_jp",
+          "version": 1.1,
+          "hash": "81d2a147cfbe4b14da7b9249dfadba8465b0a973183ccf44b39ef0919bd6fed7",
+          "tags": [
+            "documentation",
+            "readme",
+            "operations",
+            "deployment",
+            "roadmap",
+            "backup"
+          ]
+        },
+        {
+          "name": "kairoschain_philosophy",
+          "version": 1.0,
+          "hash": "83aa0ab528117f52453bdf5411d64f523b3d646c5f2374d5abcb5e8fc569036c",
+          "tags": [
+            "documentation",
+            "readme",
+            "philosophy",
+            "architecture",
+            "layers",
+            "data-model"
+          ]
+        },
+        {
+          "name": "kairoschain_philosophy_jp",
+          "version": 1.0,
+          "hash": "acddf8a01d0f60e34bc854fb3bfc239d547494bde2e048b5ddadaae607e846c2",
+          "tags": [
+            "documentation",
+            "readme",
+            "philosophy",
+            "architecture",
+            "layers",
+            "data-model"
+          ]
+        },
+        {
+          "name": "kairoschain_setup",
+          "version": 1.0,
+          "hash": "0b326f03517d21ad85d3f90ae272bc010e75ab24c9a2eca36b78126d931b1a62",
+          "tags": [
+            "documentation",
+            "readme",
+            "setup",
+            "installation",
+            "configuration",
+            "testing"
+          ]
+        },
+        {
+          "name": "kairoschain_setup_jp",
+          "version": 1.0,
+          "hash": "293b30fef83979ad2edb4b5d6ad7bef5e1ee0adbff7a08121c48bf0933edb777",
+          "tags": [
+            "documentation",
+            "readme",
+            "setup",
+            "installation",
+            "configuration",
+            "testing"
+          ]
+        },
+        {
+          "name": "kairoschain_usage",
+          "version": 1.1,
+          "hash": "3b69dd3b792d20a94b759eecfb7f5b8cd1279994a1c7d7769cf99c65dadaf7f1",
+          "tags": [
+            "documentation",
+            "readme",
+            "usage",
+            "tools",
+            "workflow",
+            "examples"
+          ]
+        },
+        {
+          "name": "kairoschain_usage_jp",
+          "version": 1.1,
+          "hash": "356a359fd92ca16e61acbe7d29fc58b612a80c19a6881d0010782f57f11a99b1",
+          "tags": [
+            "documentation",
+            "readme",
+            "usage",
+            "tools",
+            "workflow",
+            "examples"
+          ]
+        },
+        {
+          "name": "l1_health_guide",
+          "version": "1.0",
+          "hash": "af13fb2648410b4d8af96d2a00004287da9d7accc9a83784f9b7b84fd998cf6a",
+          "tags": [
+            "meta",
+            "health",
+            "audit",
+            "maintenance",
+            "self-check"
+          ]
+        },
+        {
+          "name": "layer_placement_guide",
+          "version": "1.0",
+          "hash": "d29155f9616ee244ecf607db82aa735bbceb81c54293bb7cda1af37d9a866f7c",
+          "tags": [
+            "meta",
+            "guide",
+            "layers",
+            "decision-making"
+          ]
+        },
+        {
+          "name": "mcp_to_saas_development_workflow",
+          "version": "1.0",
+          "hash": "2f18ebc044017874f6e874556628546b2275e7c3f840f2788413dcdcbd99674c",
+          "tags": [
+            "architecture",
+            "workflow",
+            "development",
+            "saas",
+            "mcp",
+            "api",
+            "best-practice"
+          ]
+        },
+        {
+          "name": "multiple_testing_controller",
+          "version": null,
+          "hash": "6d1f57fe434e5a89d9dd146ae5cf809b35f0a2308e0a50257e2c5eff30b80fa9",
+          "tags": [
+            "statistics",
+            "P0",
+            "multiple-testing",
+            "FDR"
+          ]
+        },
+        {
+          "name": "ngs_pipelines",
+          "version": null,
+          "hash": "44a6952634b2f6d4549938bd768862dc23ba9a66b0e92cb23fba5c275f8a5163",
+          "tags": [
+            "ngs",
+            "pipelines",
+            "analysis",
+            "bioinformatics"
+          ]
+        },
+        {
+          "name": "persona_definitions",
+          "version": "1.2",
+          "hash": "d304c78ebcc589425bb29f09998a18a7c7e5c10eee1ad8dc38363c983048f1cc",
+          "tags": [
+            "meta",
+            "personas",
+            "assembly",
+            "promotion",
+            "audit",
+            "decision-making",
+            "facilitator"
+          ]
+        },
+        {
+          "name": "power_analysis_planner",
+          "version": null,
+          "hash": "6913707822726bd94da9a85170e4c4b07694c633fa0a196ae4ce53a749a55309",
+          "tags": [
+            "statistics",
+            "P0",
+            "sample-size",
+            "power"
+          ]
+        },
+        {
+          "name": "privacy_risk_preflight",
+          "version": null,
+          "hash": "65d01b301093e74fe10c29e1be93cc7fac4fbb231b7210e10b4d47e007034d15",
+          "tags": [
+            "ethics",
+            "P0",
+            "privacy",
+            "GDPR",
+            "HIPAA"
+          ]
+        },
+        {
+          "name": "provenance_chain_builder",
+          "version": null,
+          "hash": "e81689afc65764aa9936caf68c67a42960c1f512bd2a04d0f336a1b30c59c593",
+          "tags": [
+            "reproducibility",
+            "P0",
+            "provenance",
+            "lineage",
+            "audit"
+          ]
+        },
+        {
+          "name": "seed_and_version_enforcer",
+          "version": null,
+          "hash": "9cde85af48f4a0a5c163091538030677d47060f289749d3c474d9d92a18e9a03",
+          "tags": [
+            "reproducibility",
+            "P0",
+            "seeds",
+            "versions",
+            "enforcement"
+          ]
+        },
+        {
+          "name": "skill_generator",
+          "version": "1.0",
+          "hash": "44e7b12aca156a1cbc3a84ea83f4679f42de82fd5512ff014a12cc5e8ef41183",
+          "tags": [
+            "meta-skill",
+            "evolution",
+            "skill-generation",
+            "quality-rubric"
+          ]
+        },
+        {
+          "name": "test_selection_advisor",
+          "version": null,
+          "hash": "e33864d8e2984c6a4a0d18602171956fad0613504afc74958a309bce42e89a5b",
+          "tags": [
+            "statistics",
+            "P0",
+            "testing",
+            "rigor"
+          ]
+        }
+      ],
+      "archived": [],
+      "manifest_hash": "2d18c9b94b4219cb90feba9b138a924a4a48e24d0c3bdc0040d19677765a83f7"
+    },
+    "L2": {
+      "session_count": 1,
+      "sessions": [
+        {
+          "id": "afd_foundation_001",
+          "context_count": 10,
+          "hash": "80f43a196bd574d03edf535cc6f69fcaf68768b42e2d86b8d484961da02fc72d"
+        }
+      ],
+      "manifest_hash": "6a20ee7748311e1546257113e15b798d89ce755435fdd79910185dfa78c00f36"
+    }
+  },
+  "changes_since_last": [
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "skill_generator",
+      "reason": "Add skill_generator v1.0 as L1 knowledge. Core engine of AFD evolution — meta-skill for generating and evaluating researcher skills (AFD Phase 3)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:43:10+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "genomics_basics",
+      "reason": "Initial L1 knowledge: genomics foundations (AFD Phase 4)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:44:10+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "journal_standards",
+      "reason": "Initial L1 knowledge: journal standards (AFD Phase 4)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:44:15+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "ngs_pipelines",
+      "reason": "Initial L1 knowledge: NGS pipeline patterns (AFD Phase 4)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:44:19+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "test_selection_advisor",
+      "reason": "L2→L1 promotion: P0 statistics skill — test_selection_advisor (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:47:38+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "power_analysis_planner",
+      "reason": "L2→L1 promotion: P0 statistics skill — power_analysis_planner (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:47:39+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "effect_size_interpreter",
+      "reason": "L2→L1 promotion: P0 statistics skill — effect_size_interpreter (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:47:40+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "multiple_testing_controller",
+      "reason": "L2→L1 promotion: P0 statistics skill — multiple_testing_controller (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:47:46+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "privacy_risk_preflight",
+      "reason": "L2→L1 promotion: P0 ethics skill — privacy_risk_preflight (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:47:58+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "consent_scope_checker",
+      "reason": "L2→L1 promotion: P0 ethics skill — consent_scope_checker (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:48:05+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "data_governance_auditor",
+      "reason": "L2→L1 promotion: P0 ethics skill — data_governance_auditor (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:48:12+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "analysis_environment_recorder",
+      "reason": "L2→L1 promotion: P0 reproducibility skill — analysis_environment_recorder (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:48:25+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "seed_and_version_enforcer",
+      "reason": "L2→L1 promotion: P0 reproducibility skill — seed_and_version_enforcer (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:48:32+01:00"
+    },
+    {
+      "layer": "L1",
+      "action": "create",
+      "skill_id": "provenance_chain_builder",
+      "reason": "L2→L1 promotion: P0 reproducibility skill — provenance_chain_builder (AFD Phase 6)",
+      "metadata": {},
+      "timestamp": "2026-02-24T07:48:42+01:00"
+    }
+  ]
+}
