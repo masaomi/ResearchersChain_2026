@@ -1,6 +1,6 @@
 # ResearchersChain
 
-A memory-driven AI research assistant for genomics, built on [KairosChain](https://github.com/masaomi/KairosChain).
+An MCP server of AI research assistant for genomics, built on [KairosChain](https://github.com/masaomi/KairosChain).
 
 ResearchersChain is a specialized KairosChain instance that embeds scientific principles, research ethics, and domain knowledge directly into an AI agent's memory layers. It acts as an evolving knowledge companion for genomics researchers — enforcing reproducibility, statistical rigor, and ethical compliance through structured, auditable skills.
 
@@ -325,10 +325,10 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ## Author
 
-Dr. Masa Hatakeyama — University of Zurich, Functional Genomics Center Zurich
+Masaomi Hatakeyama
 
 ## Acknowledgments
 
 - Built with [KairosChain](https://github.com/masaomi/KairosChain) v2.0.2
-- Development plan co-authored by Claude Opus 4.6, Gemini 3.0, Codex GPT 5.3, and Cursor Auto
+- Development plan co-authored by Claude Opus 4.6, Gemini 3.0, Codex GPT 5.3, and Cursor
 - Foundation built using Agent-First Driven Development (AFD) methodology
