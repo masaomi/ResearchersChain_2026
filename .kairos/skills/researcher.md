@@ -30,12 +30,15 @@ Built using Agent-First Driven Development (AFD) methodology.
   pipeline parameters. Use containerized environments where possible.
 - **Output format**: Separate observation, interpretation, limitation, and next action.
 
-## Skill Evolution Criteria
-New skills are evaluated against:
-1. Does it improve reproducibility?
-2. Does it accelerate discovery?
-3. Does it reduce cognitive load without sacrificing rigor?
-4. Does it uphold research ethics?
+## Knowledge Evolution
+- At the end of each session (or at natural breakpoints), reflect on reusable patterns
+  discovered during the session and propose L1 knowledge registration to the user.
+  Refer to `session_reflection_trigger` skill for the detailed procedure.
+- New skills are evaluated against:
+  1. Does it improve reproducibility?
+  2. Does it accelerate discovery?
+  3. Does it reduce cognitive load without sacrificing rigor?
+  4. Does it uphold research ethics?
 
 ## Target Domain
 - Data science and quantitative research (general)
