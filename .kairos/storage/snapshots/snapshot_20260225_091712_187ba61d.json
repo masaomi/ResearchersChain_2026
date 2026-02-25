@@ -1,0 +1,901 @@
+{
+  "snapshot_hash": "187ba61d3c13189967518383b19871e0e9501f120d5c28f74d6b3ee08722b987",
+  "created_at": "2026-02-25T09:17:12+01:00",
+  "created_by": "human",
+  "commit_type": "explicit",
+  "reason": "Verify storage path fix: snapshot should be written to .kairos/storage/snapshots/",
+  "layers": {
+    "L0": {
+      "dsl_file_hash": "5f29e53214c9f45e7f0e588a534147e8365342fada3d1a9d73b8f71b1f44c83e",
+      "md_file_hash": "33f1227e6e2b4188359276bc6fe7dea54041ee76bccfd9bff9c113b76b9cd8fd",
+      "skill_count": 8,
+      "skills": [
+        {
+          "id": "approval_workflow",
+          "version": "1.1",
+          "hash": "36a1450fbc84aa0949995a262a20e1bb51a2ef5904d7e77a92e2d21efdbaeac7"
+        },
+        {
+          "id": "audit_rules",
+          "version": "1.0",
+          "hash": "c9694e87142dd397a72329f24315ef845fbc8f67b9d13f54f44b2c76e02ff352"
+        },
+        {
+          "id": "chain_awareness",
+          "version": "1.1",
+          "hash": "b9be17b9fffc7ec6be5592c03241f52099da6f72a5a64a86d35f9116d4d4c4b9"
+        },
+        {
+          "id": "core_safety",
+          "version": "1.1",
+          "hash": "c8767a2b32edb6ffc0c5dbece847c7498c41459f7cea27023981c5ef3403acd7"
+        },
+        {
+          "id": "evolution_rules",
+          "version": "1.0",
+          "hash": "40c92278c183e3cc31ba6fc59acac41b4ce710bcd47f1b8ee76fc599a62cd82f"
+        },
+        {
+          "id": "l0_governance",
+          "version": "1.1",
+          "hash": "bfafdd5df3bc4a0c954cd827484c9762b7f1761b24bbe694de00a966f5bd7662"
+        },
+        {
+          "id": "layer_awareness",
+          "version": "1.0",
+          "hash": "bd78023ce62b260e2be5d718b3d635b5b46584d445c8c3f4fda25489e222e875"
+        },
+        {
+          "id": "self_inspection",
+          "version": "1.1",
+          "hash": "0c808d59f026e120ab23dcf646df88c18160bbe9dbb66dfda3ac7f7aaffdd682"
+        }
+      ],
+      "manifest_hash": "ebf5b00ea0027c4871091cfe9345ff5a3a7517ba3ef36ece2495cb0a87f1a827"
+    },
+    "L1": {
+      "knowledge_count": 69,
+      "archived_count": 0,
+      "knowledge": [
+        {
+          "name": "abstract_composer_structured",
+          "version": null,
+          "hash": "6202c7ac5bec379de64244f9446edc50b87d7d38cbb2016d1a5c0b710abede0a",
+          "tags": [
+            "writing",
+            "P1",
+            "abstract",
+            "structure"
+          ]
+        },
+        {
+          "name": "analysis_environment_recorder",
+          "version": null,
+          "hash": "2cb8f7b01319a0e74ce54010a535b36b29c452945bb26ace0427e7f8538d5824",
+          "tags": [
+            "reproducibility",
+            "P0",
+            "environment",
+            "versioning"
+          ]
+        },
+        {
+          "name": "artifact_packager_for_submission",
+          "version": null,
+          "hash": "a283834b102efdeed284bbdfbd0e18fecc77452f9f64962a819fc78841cdf04c",
+          "tags": [
+            "reproducibility",
+            "P1",
+            "packaging",
+            "submission",
+            "archival"
+          ]
+        },
+        {
+          "name": "assumption_checklist_enforcer",
+          "version": null,
+          "hash": "bb87f4319774e565d48dc88827247ce8757fdb5f811c9c0d122be8db463d447e",
+          "tags": [
+            "statistics",
+            "P1",
+            "assumptions",
+            "validation"
+          ]
+        },
+        {
+          "name": "assumption_surface_mapper",
+          "version": null,
+          "hash": "0b591234612f3aa42a6396453eec67f19cdfccb43ee6634643cee76f138e152e",
+          "tags": [
+            "philosophy",
+            "P1",
+            "assumptions",
+            "transparency",
+            "critical-thinking"
+          ]
+        },
+        {
+          "name": "batch_effect_triager",
+          "version": null,
+          "hash": "24aa5411a09cf34812cd3b3b7e7451d44f2744f14aea1b85dff25c2f9e359c0a",
+          "tags": [
+            "analysis",
+            "P1",
+            "batch-effect",
+            "normalization",
+            "confounding"
+          ]
+        },
+        {
+          "name": "bayesian_frequentist_router",
+          "version": null,
+          "hash": "c65dcc3102b04c539372d24454cf4a918aaea88456ca6eb91ccbd5a690bb104b",
+          "tags": [
+            "statistics",
+            "P1",
+            "bayesian",
+            "frequentist",
+            "decision"
+          ]
+        },
+        {
+          "name": "claim_evidence_separator",
+          "version": null,
+          "hash": "bb89735cf9db7b7b095d1a65ded3feee84ed75a2dba0673256bfaa21eafd8454",
+          "tags": [
+            "philosophy",
+            "P1",
+            "critical-thinking",
+            "reasoning"
+          ]
+        },
+        {
+          "name": "conflict_of_interest_prompter",
+          "version": null,
+          "hash": "44a25f06375fed18e2b0e66eb249234e98dcfa794707707557db213e5b342c0f",
+          "tags": [
+            "ethics",
+            "P1",
+            "conflict-of-interest",
+            "disclosure",
+            "transparency"
+          ]
+        },
+        {
+          "name": "confounder_detector",
+          "version": null,
+          "hash": "c47b492aa637b109cbfdb64ee4158d909992ba09dce6ba3f5d339123b2374936",
+          "tags": [
+            "analysis",
+            "P1",
+            "confounding",
+            "causal-inference",
+            "study-design"
+          ]
+        },
+        {
+          "name": "consent_scope_checker",
+          "version": null,
+          "hash": "569546c372c4a22f589f750f0de8d3904eab38125dc35aea67bee192555315bf",
+          "tags": [
+            "ethics",
+            "P0",
+            "consent",
+            "compliance"
+          ]
+        },
+        {
+          "name": "cover_letter_drafter_journal_fit",
+          "version": null,
+          "hash": "fc3d96805cde18a74b926b8af007ca61cf705c6cdb3e45e8e5290920d7d646d0",
+          "tags": [
+            "writing",
+            "P1",
+            "cover-letter",
+            "submission"
+          ]
+        },
+        {
+          "name": "cross_validation_designer",
+          "version": null,
+          "hash": "405b8c24fd5a87ed89cdd728aa3b45d9ba5c99bc628d6fe23a3ea995343f2fe4",
+          "tags": [
+            "machine_learning",
+            "P1",
+            "cross-validation",
+            "evaluation",
+            "data-leakage"
+          ]
+        },
+        {
+          "name": "data_cleaning_advisor",
+          "version": null,
+          "hash": "72a1bb07d980986aaf33a3027c5ac843cf8f30e62c32d51496011b2abe772ae0",
+          "tags": [
+            "data_engineering",
+            "P1",
+            "cleaning",
+            "preprocessing",
+            "quality"
+          ]
+        },
+        {
+          "name": "data_governance_auditor",
+          "version": null,
+          "hash": "c4b6fcd84fd5a58451b7aab624f6aa001dc61454e90642c5e0ebfc8efa6125dc",
+          "tags": [
+            "ethics",
+            "P0",
+            "governance",
+            "FAIR",
+            "compliance"
+          ]
+        },
+        {
+          "name": "data_science_foundations",
+          "version": null,
+          "hash": "19d4a9d4369b32c6cf0463e01803766e1d123a5f612f090fa974f17b9efbb47e",
+          "tags": [
+            "data-science",
+            "foundation",
+            "reference",
+            "machine-learning",
+            "statistics"
+          ]
+        },
+        {
+          "name": "effect_size_interpreter",
+          "version": null,
+          "hash": "1604dcea4b1fe2b2198d02de75034ce197402257ef3d628788066bc81fa21ffb",
+          "tags": [
+            "statistics",
+            "P0",
+            "effect-size",
+            "reporting"
+          ]
+        },
+        {
+          "name": "example_knowledge",
+          "version": "1.0",
+          "hash": "a0cc946548ff44c19f1ae8bfdbee3eafec041bb3a2efe332fc0e78e5c239d4d3",
+          "tags": [
+            "example",
+            "documentation"
+          ]
+        },
+        {
+          "name": "exploratory_data_analysis_guide",
+          "version": null,
+          "hash": "a015bd295870a288b04a49f7f7c4c8dacb5871e99211cffa22bc0083d1bb4780",
+          "tags": [
+            "data_engineering",
+            "P1",
+            "eda",
+            "exploration",
+            "visualization"
+          ]
+        },
+        {
+          "name": "falsifiability_checker",
+          "version": null,
+          "hash": "e504261bc945ba26717f5d02d144eb1ddae748c31c69949c6124ce4f2e65c0f7",
+          "tags": [
+            "philosophy",
+            "P1",
+            "falsifiability",
+            "hypothesis",
+            "scientific-method"
+          ]
+        },
+        {
+          "name": "feasibility_risk_matrix_builder",
+          "version": null,
+          "hash": "daf2040b28664194246818d0a8ead7e1a4603b5619a1f695383bfa466bd2b7d4",
+          "tags": [
+            "planning",
+            "P1",
+            "feasibility",
+            "risk-assessment"
+          ]
+        },
+        {
+          "name": "feature_importance_interpreter",
+          "version": null,
+          "hash": "2841822d61915025eb9cad32bd324192cfd4e539fedfeeaefc38519dc60f50fa",
+          "tags": [
+            "machine_learning",
+            "P1",
+            "interpretability",
+            "feature-importance",
+            "SHAP"
+          ]
+        },
+        {
+          "name": "figure_accessibility_checker",
+          "version": null,
+          "hash": "6d37039bbeb2e1804ccae0fc249490dd4f4f9ed52deec8a8124959af3b58eeda",
+          "tags": [
+            "visualization",
+            "P1",
+            "accessibility",
+            "colorblind",
+            "inclusive-design"
+          ]
+        },
+        {
+          "name": "genomics_basics",
+          "version": null,
+          "hash": "e1f8c261f6b44edca55e5538dc6dfb7a9e4fe65e52e39b0c0656abb5f66bc724",
+          "tags": [
+            "genomics",
+            "foundation",
+            "reference"
+          ]
+        },
+        {
+          "name": "grant_alignment_checker",
+          "version": null,
+          "hash": "85a9a0cf598fb861553aad0e34fdd7181dab5f49f0b48a194d3028d0c0acb1dc",
+          "tags": [
+            "planning",
+            "P1",
+            "grant",
+            "funding",
+            "alignment"
+          ]
+        },
+        {
+          "name": "hestiachain_meeting_place",
+          "version": 2.0,
+          "hash": "bc976280d5619dbada72339c3cb845be2a86e8eeff4d4cddb5cb997aba4860dc",
+          "tags": [
+            "documentation",
+            "readme",
+            "hestia",
+            "meeting-place",
+            "p2p",
+            "deployment",
+            "trust-anchor"
+          ]
+        },
+        {
+          "name": "hestiachain_meeting_place_jp",
+          "version": 2.0,
+          "hash": "8435ca033ef035f8add9ab2673e2ddc45fd3e81357a2a0dda9f53ecee7d1e9e5",
+          "tags": [
+            "documentation",
+            "readme",
+            "hestia",
+            "meeting-place",
+            "p2p",
+            "deployment",
+            "trust-anchor"
+          ]
+        },
+        {
+          "name": "hypothesis_to_storyline",
+          "version": null,
+          "hash": "f26a6bb31df9290fcdeae4f241da5bf2cb55f3523d25d3eddfe08dee7234f90c",
+          "tags": [
+            "writing",
+            "P1",
+            "narrative",
+            "structure"
+          ]
+        },
+        {
+          "name": "journal_standards",
+          "version": null,
+          "hash": "20a92d3d88362677b53e57dd8f58bb17e4f295b76bdec0e0726f5589bc470447",
+          "tags": [
+            "publishing",
+            "journals",
+            "writing"
+          ]
+        },
+        {
+          "name": "kairoschain_design",
+          "version": 1.0,
+          "hash": "ee984faebefba50c3d8efdef49617b610f42f0848b6809d47a67e564051622bc",
+          "tags": [
+            "documentation",
+            "readme",
+            "design",
+            "architecture",
+            "directory-structure"
+          ]
+        },
+        {
+          "name": "kairoschain_design_jp",
+          "version": 1.0,
+          "hash": "9d394ce2fa2997e14e70dd304ac3c41a0b40d5b3046766eb5f0ec252a486b28e",
+          "tags": [
+            "documentation",
+            "readme",
+            "design",
+            "architecture",
+            "directory-structure"
+          ]
+        },
+        {
+          "name": "kairoschain_faq",
+          "version": 1.0,
+          "hash": "2fa5d013a8e4436c8617a43f663912e0fbc0c18da2b457a9bad9ee86a20da578",
+          "tags": [
+            "documentation",
+            "readme",
+            "faq",
+            "subtree",
+            "integration"
+          ]
+        },
+        {
+          "name": "kairoschain_faq_jp",
+          "version": 1.0,
+          "hash": "389ff47582666a1910f1f043151f667198c2fe4c44caf0da977aded810f2d5d0",
+          "tags": [
+            "documentation",
+            "readme",
+            "faq",
+            "subtree",
+            "integration"
+          ]
+        },
+        {
+          "name": "kairoschain_operations",
+          "version": 1.1,
+          "hash": "88770f330783e40d49e4b037775efa4337aa3d77caa441d4d443dab6c501257c",
+          "tags": [
+            "documentation",
+            "readme",
+            "operations",
+            "deployment",
+            "roadmap",
+            "backup"
+          ]
+        },
+        {
+          "name": "kairoschain_operations_jp",
+          "version": 1.1,
+          "hash": "81d2a147cfbe4b14da7b9249dfadba8465b0a973183ccf44b39ef0919bd6fed7",
+          "tags": [
+            "documentation",
+            "readme",
+            "operations",
+            "deployment",
+            "roadmap",
+            "backup"
+          ]
+        },
+        {
+          "name": "kairoschain_philosophy",
+          "version": 1.0,
+          "hash": "83aa0ab528117f52453bdf5411d64f523b3d646c5f2374d5abcb5e8fc569036c",
+          "tags": [
+            "documentation",
+            "readme",
+            "philosophy",
+            "architecture",
+            "layers",
+            "data-model"
+          ]
+        },
+        {
+          "name": "kairoschain_philosophy_jp",
+          "version": 1.0,
+          "hash": "acddf8a01d0f60e34bc854fb3bfc239d547494bde2e048b5ddadaae607e846c2",
+          "tags": [
+            "documentation",
+            "readme",
+            "philosophy",
+            "architecture",
+            "layers",
+            "data-model"
+          ]
+        },
+        {
+          "name": "kairoschain_setup",
+          "version": 1.0,
+          "hash": "0b326f03517d21ad85d3f90ae272bc010e75ab24c9a2eca36b78126d931b1a62",
+          "tags": [
+            "documentation",
+            "readme",
+            "setup",
+            "installation",
+            "configuration",
+            "testing"
+          ]
+        },
+        {
+          "name": "kairoschain_setup_jp",
+          "version": 1.0,
+          "hash": "293b30fef83979ad2edb4b5d6ad7bef5e1ee0adbff7a08121c48bf0933edb777",
+          "tags": [
+            "documentation",
+            "readme",
+            "setup",
+            "installation",
+            "configuration",
+            "testing"
+          ]
+        },
+        {
+          "name": "kairoschain_usage",
+          "version": 1.1,
+          "hash": "3b69dd3b792d20a94b759eecfb7f5b8cd1279994a1c7d7769cf99c65dadaf7f1",
+          "tags": [
+            "documentation",
+            "readme",
+            "usage",
+            "tools",
+            "workflow",
+            "examples"
+          ]
+        },
+        {
+          "name": "kairoschain_usage_jp",
+          "version": 1.1,
+          "hash": "356a359fd92ca16e61acbe7d29fc58b612a80c19a6881d0010782f57f11a99b1",
+          "tags": [
+            "documentation",
+            "readme",
+            "usage",
+            "tools",
+            "workflow",
+            "examples"
+          ]
+        },
+        {
+          "name": "l1_health_guide",
+          "version": "1.0",
+          "hash": "af13fb2648410b4d8af96d2a00004287da9d7accc9a83784f9b7b84fd998cf6a",
+          "tags": [
+            "meta",
+            "health",
+            "audit",
+            "maintenance",
+            "self-check"
+          ]
+        },
+        {
+          "name": "layer_placement_guide",
+          "version": "1.0",
+          "hash": "d29155f9616ee244ecf607db82aa735bbceb81c54293bb7cda1af37d9a866f7c",
+          "tags": [
+            "meta",
+            "guide",
+            "layers",
+            "decision-making"
+          ]
+        },
+        {
+          "name": "llm_hallucination_patterns_scientific_writing",
+          "version": "1.0",
+          "hash": "23a20ed5f3ad4deed016332bf01621ad36e2d994c79780ade316cff265ea97d0",
+          "tags": [
+            "quality-assurance",
+            "scientific-writing",
+            "hallucination-detection",
+            "review"
+          ]
+        },
+        {
+          "name": "mcp_to_saas_development_workflow",
+          "version": "1.0",
+          "hash": "2f18ebc044017874f6e874556628546b2275e7c3f840f2788413dcdcbd99674c",
+          "tags": [
+            "architecture",
+            "workflow",
+            "development",
+            "saas",
+            "mcp",
+            "api",
+            "best-practice"
+          ]
+        },
+        {
+          "name": "methods_reproducibility_writer",
+          "version": null,
+          "hash": "0816d70189d1e2f92c42c9d4f5e0a81bbe94ee3c88cab25758889edb5184030d",
+          "tags": [
+            "writing",
+            "P1",
+            "methods",
+            "reproducibility"
+          ]
+        },
+        {
+          "name": "milestone_timeline_designer",
+          "version": null,
+          "hash": "5c0ff0e957b2d735648dad77ca1c1e0cf85f4f067f54796ac665ef0575da7025",
+          "tags": [
+            "planning",
+            "P1",
+            "milestones",
+            "timeline",
+            "project-management"
+          ]
+        },
+        {
+          "name": "missing_data_strategy_advisor",
+          "version": null,
+          "hash": "96d56e560bc6c9211e1f440359126e07f0e7afc560b4dcaac9eeae458854098e",
+          "tags": [
+            "statistics",
+            "P1",
+            "missing-data",
+            "imputation"
+          ]
+        },
+        {
+          "name": "ml_reproducibility_checklist",
+          "version": null,
+          "hash": "91c73e8cde10084f8f9f2446246ffdfb418bb03bae7fa7407d46b771d16998bd",
+          "tags": [
+            "machine_learning",
+            "P1",
+            "reproducibility",
+            "checklist"
+          ]
+        },
+        {
+          "name": "model_selection_advisor",
+          "version": null,
+          "hash": "4a12a6a14d36e5a25a37833dc908f5b6592ce27af4984dc234cb7962c8820895",
+          "tags": [
+            "machine_learning",
+            "P1",
+            "model-selection",
+            "decision"
+          ]
+        },
+        {
+          "name": "multiple_testing_controller",
+          "version": null,
+          "hash": "6d1f57fe434e5a89d9dd146ae5cf809b35f0a2308e0a50257e2c5eff30b80fa9",
+          "tags": [
+            "statistics",
+            "P0",
+            "multiple-testing",
+            "FDR"
+          ]
+        },
+        {
+          "name": "negative_result_value_extractor",
+          "version": null,
+          "hash": "df2a374c8f1133726f5d62acc35cfcafa2338b48552d7b36157225c43cf2ee94",
+          "tags": [
+            "philosophy",
+            "P1",
+            "negative-results",
+            "publication-bias"
+          ]
+        },
+        {
+          "name": "ngs_pipeline_designer",
+          "version": null,
+          "hash": "0221d6ac865c35e9f878a3a94c217801d025d90c430a0f2588c0519e27b810e2",
+          "tags": [
+            "analysis",
+            "P1",
+            "ngs",
+            "pipeline",
+            "bioinformatics"
+          ]
+        },
+        {
+          "name": "ngs_pipelines",
+          "version": null,
+          "hash": "44a6952634b2f6d4549938bd768862dc23ba9a66b0e92cb23fba5c275f8a5163",
+          "tags": [
+            "ngs",
+            "pipelines",
+            "analysis",
+            "bioinformatics"
+          ]
+        },
+        {
+          "name": "novelty_gap_mapper",
+          "version": null,
+          "hash": "37c1e8e64ab697e04362455c0f31c2a74abb1aa406cb30a65ff55d543a913e67",
+          "tags": [
+            "planning",
+            "P1",
+            "novelty",
+            "gap-analysis",
+            "literature"
+          ]
+        },
+        {
+          "name": "overfitting_detector",
+          "version": null,
+          "hash": "78f1f6726a5e78ff7333909811612f6e9e90af59eadc7ddbf1146dc051fe9c53",
+          "tags": [
+            "machine_learning",
+            "P1",
+            "overfitting",
+            "regularization",
+            "generalization"
+          ]
+        },
+        {
+          "name": "persona_definitions",
+          "version": "1.2",
+          "hash": "d304c78ebcc589425bb29f09998a18a7c7e5c10eee1ad8dc38363c983048f1cc",
+          "tags": [
+            "meta",
+            "personas",
+            "assembly",
+            "promotion",
+            "audit",
+            "decision-making",
+            "facilitator"
+          ]
+        },
+        {
+          "name": "power_analysis_planner",
+          "version": null,
+          "hash": "6913707822726bd94da9a85170e4c4b07694c633fa0a196ae4ce53a749a55309",
+          "tags": [
+            "statistics",
+            "P0",
+            "sample-size",
+            "power"
+          ]
+        },
+        {
+          "name": "privacy_risk_preflight",
+          "version": null,
+          "hash": "65d01b301093e74fe10c29e1be93cc7fac4fbb231b7210e10b4d47e007034d15",
+          "tags": [
+            "ethics",
+            "P0",
+            "privacy",
+            "GDPR",
+            "HIPAA"
+          ]
+        },
+        {
+          "name": "provenance_chain_builder",
+          "version": null,
+          "hash": "e81689afc65764aa9936caf68c67a42960c1f512bd2a04d0f336a1b30c59c593",
+          "tags": [
+            "reproducibility",
+            "P0",
+            "provenance",
+            "lineage",
+            "audit"
+          ]
+        },
+        {
+          "name": "qc_failure_diagnoser",
+          "version": null,
+          "hash": "5b0464ddc600e86e05c0620cb78a0c1c54eee220ab02abc323408b9b4bb3a222",
+          "tags": [
+            "analysis",
+            "P1",
+            "qc",
+            "troubleshooting",
+            "diagnostics"
+          ]
+        },
+        {
+          "name": "research_question_refiner",
+          "version": null,
+          "hash": "6ba88f45ec7f4e9d669fe1827206c8b3f06f8e55dbce17816d249e2f9e3b029f",
+          "tags": [
+            "planning",
+            "P1",
+            "research-question",
+            "hypothesis"
+          ]
+        },
+        {
+          "name": "response_to_reviewer_mapper",
+          "version": null,
+          "hash": "fa8ba7a90e3323efb0b7f21682526534963f475cc9a0ffcec90da828b3f22aa3",
+          "tags": [
+            "writing",
+            "P1",
+            "rebuttal",
+            "peer-review"
+          ]
+        },
+        {
+          "name": "result_regeneration_checker",
+          "version": null,
+          "hash": "beba5055ce3851ab3c6eddcb64dfa1bba1639cd0219787104995713b0eee6d26",
+          "tags": [
+            "reproducibility",
+            "P1",
+            "regeneration",
+            "verification"
+          ]
+        },
+        {
+          "name": "seed_and_version_enforcer",
+          "version": null,
+          "hash": "9cde85af48f4a0a5c163091538030677d47060f289749d3c474d9d92a18e9a03",
+          "tags": [
+            "reproducibility",
+            "P0",
+            "seeds",
+            "versions",
+            "enforcement"
+          ]
+        },
+        {
+          "name": "session_reflection_trigger",
+          "version": 1.0,
+          "hash": "d7a707e6ea3f02aa41555c613ec31d657efecff08be83ef976d9f42695352799",
+          "tags": [
+            "meta-skill",
+            "reflection",
+            "knowledge-extraction",
+            "session-end",
+            "P1"
+          ]
+        },
+        {
+          "name": "skill_generator",
+          "version": "2.0",
+          "hash": "e82e9d20f327dde2e3242d04eab7f42c706bd48ef5675e52df1adecbccd5cac7",
+          "tags": [
+            "meta-skill",
+            "evolution",
+            "skill-generation",
+            "quality-rubric",
+            "multi-source"
+          ]
+        },
+        {
+          "name": "test_selection_advisor",
+          "version": null,
+          "hash": "e33864d8e2984c6a4a0d18602171956fad0613504afc74958a309bce42e89a5b",
+          "tags": [
+            "statistics",
+            "P0",
+            "testing",
+            "rigor"
+          ]
+        },
+        {
+          "name": "visualization_best_practices",
+          "version": null,
+          "hash": "8a5bd6d0d76282fdb95c3c025de180d7184c73e52549d2fa1ec24513a9a0cc37",
+          "tags": [
+            "visualization",
+            "P1",
+            "figures",
+            "communication",
+            "best-practices"
+          ]
+        }
+      ],
+      "archived": [],
+      "manifest_hash": "36085ad034ca7f13cf2a529095dbcbfe118faddbdc93158233223ead96cefd50"
+    },
+    "L2": {
+      "session_count": 3,
+      "sessions": [
+        {
+          "id": "afd_foundation_001",
+          "context_count": 11,
+          "hash": "9aca32c53078a5d07195868a1a6e4532399c4dcf0a5fbd9d0f8b6dcfeae7919c"
+        },
+        {
+          "id": "session_20260224_145600_5ba605f3",
+          "context_count": 1,
+          "hash": "ffa83f7cd93d00206bc0d11a9eb3fc84bba27d3b39b98dc917f2aa3dc7937f29"
+        },
+        {
+          "id": "session_20260224_192338_89ee12f2",
+          "context_count": 2,
+          "hash": "5c625eb8cfb05cbfb2aca486bcba72ddafd6f236332e4b0de66f9ab55849d569"
+        }
+      ],
+      "manifest_hash": "77eff07a226836b414c4991795a55b02f60ff1b32bda46be5a4da46b474a08ee"
+    }
+  },
+  "changes_since_last": []
+}

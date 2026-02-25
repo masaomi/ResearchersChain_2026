@@ -598,5 +598,15 @@
     "previous_hash": "29b0ac08fd79a579d342498493d0b90a7169546c6c6e76894db8ffbd738b0ccd",
     "merkle_root": "c59155a739b0a1520fe134db04a69e2f7a9f9100d938761b02be52bae5d805ba",
     "hash": "e875f3ecef10ce80659652d5f75caa8c3135b555ac5d9c7e3a2b3fa778bf7fa5"
+  },
+  {
+    "index": 60,
+    "timestamp": "2026-02-25T08:17:12.406794Z",
+    "data": [
+      "{\"type\":\"state_commit\",\"commit_type\":\"explicit\",\"actor\":\"human\",\"prev_snapshot_hash\":\"9808dae2cdd357dca65a3e99ac483faae54e901ce7cc604695d5483a0551ff8a\",\"next_snapshot_hash\":\"187ba61d3c13189967518383b19871e0e9501f120d5c28f74d6b3ee08722b987\",\"snapshot_ref\":\"snapshots/snapshot_20260225_091712_187ba61d.json\",\"summary\":{\"L0_changed\":false,\"L1_added\":2,\"L1_modified\":0,\"L1_deleted\":0,\"L2_sessions_added\":2,\"L2_sessions_deleted\":0,\"promotions\":0,\"demotions\":0,\"total_changes\":4},\"reason\":\"Verify storage path fix: snapshot should be written to .kairos/storage/snapshots/\",\"timestamp\":\"2026-02-25T09:17:12+01:00\"}"
+    ],
+    "previous_hash": "e875f3ecef10ce80659652d5f75caa8c3135b555ac5d9c7e3a2b3fa778bf7fa5",
+    "merkle_root": "80f66f40529b4bd76ed9dc3126cb80b717bfb7a5e3539b7e5a92c88e7a3c5226",
+    "hash": "92af42942a00c6a6e57e6217f3fd23d8540e9364b5fc5daa15f8ca3f20cd7738"
   }
 ]
