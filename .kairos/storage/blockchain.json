@@ -558,5 +558,15 @@
     "previous_hash": "07dd24c269702f8b94dd8ff5ec3c4d12cd45c3fce7ea2dec6eb31f2be2130bf4",
     "merkle_root": "333186189ee0027d1eb0224b10c9ada6e5d3815a44a24a58464a870d35f48ffb",
     "hash": "4308242c0e5807ff46816a3dfd0999ccece83a08c56c0c2f9375f36b92d48254"
+  },
+  {
+    "index": 56,
+    "timestamp": "2026-02-24T18:23:54.336935Z",
+    "data": [
+      "{\"type\":\"state_commit\",\"commit_type\":\"explicit\",\"actor\":\"human\",\"prev_snapshot_hash\":null,\"next_snapshot_hash\":\"7395a8de9db14ef91798b8940a315b021876e35508865154b1d28d5eb62a1ad3\",\"snapshot_ref\":\"snapshots/snapshot_20260224_192354_7395a8de.json\",\"summary\":{\"L0_changed\":true,\"L1_added\":67,\"L1_modified\":0,\"L1_deleted\":0,\"L2_sessions_added\":3,\"L2_sessions_deleted\":0,\"promotions\":0,\"demotions\":0,\"total_changes\":71},\"reason\":\"Final report 20260225 complete: pipeline (23/23 checks pass), 4 documents (report, preprint, poster, presentation), 6 figures, 12 result CSVs\",\"timestamp\":\"2026-02-24T19:23:54+01:00\"}"
+    ],
+    "previous_hash": "4308242c0e5807ff46816a3dfd0999ccece83a08c56c0c2f9375f36b92d48254",
+    "merkle_root": "0e45ef87d16cab590edfefed27b0a8ab0bb77edce25ccb8185c4744da3fa7a6e",
+    "hash": "6cdc2e7957dc7a232d05c62bbe2811f915cb51ca44daec4773c356a224586729"
   }
 ]
