@@ -588,5 +588,15 @@
     "previous_hash": "4a1c77c0c31c6477ef03de8e4a2df9f167cf815a3cf6a722e4197862a9a56bf7",
     "merkle_root": "b6670da2b0af162a9e4bb414e417270c39fec0cf9b12a8c1d28cabc9bb3286b4",
     "hash": "29b0ac08fd79a579d342498493d0b90a7169546c6c6e76894db8ffbd738b0ccd"
+  },
+  {
+    "index": 59,
+    "timestamp": "2026-02-25T04:56:12.327494Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"llm_hallucination_patterns_scientific_writing\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"23a20ed5f3ad4deed016332bf01621ad36e2d994c79780ade316cff265ea97d0\",\"reason\":\"Observed systematic LLM hallucination patterns during 3-agent parallel review of scientific preprint, poster, and presentation. Patterns include species name fabrication, quantitative value invention, citation misattribution, code-text mismatch, and narrative overclaiming. Generalized from specific project findings to reusable quality assurance knowledge.\",\"timestamp\":\"2026-02-25T05:56:12+01:00\"}"
+    ],
+    "previous_hash": "29b0ac08fd79a579d342498493d0b90a7169546c6c6e76894db8ffbd738b0ccd",
+    "merkle_root": "c59155a739b0a1520fe134db04a69e2f7a9f9100d938761b02be52bae5d805ba",
+    "hash": "e875f3ecef10ce80659652d5f75caa8c3135b555ac5d9c7e3a2b3fa778bf7fa5"
   }
 ]
