@@ -608,5 +608,155 @@
     "previous_hash": "e875f3ecef10ce80659652d5f75caa8c3135b555ac5d9c7e3a2b3fa778bf7fa5",
     "merkle_root": "80f66f40529b4bd76ed9dc3126cb80b717bfb7a5e3539b7e5a92c88e7a3c5226",
     "hash": "92af42942a00c6a6e57e6217f3fd23d8540e9364b5fc5daa15f8ca3f20cd7738"
+  },
+  {
+    "index": 61,
+    "timestamp": "2026-02-25T13:29:59.275854Z",
+    "data": [
+      "{\"type\":\"system_upgrade\",\"from_version\":\"2.0.2\",\"to_version\":\"2.1.0\",\"actions\":{\"auto_updated\":[],\"merged\":[],\"l0_proposed\":[\"skills/kairos.rb\"],\"skipped\":[\"skills/config.yml\"],\"unchanged\":[\"skills/kairos.md\",\"skills/kairos_quickguide.md\",\"config/safety.yml\",\"config/tool_metadata.yml\"],\"knowledge_installed\":[],\"knowledge_updated\":[],\"knowledge_kept\":[],\"knowledge_conflict\":[]},\"timestamp\":\"2026-02-25T13:29:59Z\"}"
+    ],
+    "previous_hash": "92af42942a00c6a6e57e6217f3fd23d8540e9364b5fc5daa15f8ca3f20cd7738",
+    "merkle_root": "5ca8ae215e082c8d8c9e23beb5286950367923def88863ed562a649b9cda90fa",
+    "hash": "ed44ee55d6e16cac921513323e649291237b378f5d9fc6e99d881fab0981471b"
+  },
+  {
+    "index": 62,
+    "timestamp": "2026-02-25T13:46:29.293476Z",
+    "data": [
+      "{\"type\":\"state_commit\",\"commit_type\":\"explicit\",\"actor\":\"human\",\"prev_snapshot_hash\":\"187ba61d3c13189967518383b19871e0e9501f120d5c28f74d6b3ee08722b987\",\"next_snapshot_hash\":\"ca2a4657a99c458bad8d928845159061ce91a1db3a5fceeb40c55f8ba05c1802\",\"snapshot_ref\":\"snapshots/snapshot_20260225_144629_ca2a4657.json\",\"summary\":{\"L0_changed\":false,\"L1_added\":0,\"L1_modified\":0,\"L1_deleted\":0,\"L2_sessions_added\":1,\"L2_sessions_deleted\":0,\"promotions\":0,\"demotions\":0,\"total_changes\":1},\"reason\":\"NI論文査読完了: Persona Assembly (4 personas, 3 rounds) によりMajor→Minor Revision修正計画を策定。CRITICAL-2(Naganoデータ同一性)が最優先課題として特定。\",\"timestamp\":\"2026-02-25T14:46:29+01:00\"}"
+    ],
+    "previous_hash": "ed44ee55d6e16cac921513323e649291237b378f5d9fc6e99d881fab0981471b",
+    "merkle_root": "ebdeae76e0e3b79e471d5a752e6504504bb4c76d63d1345e443440d21a30b89c",
+    "hash": "1d3afc0901ca706e6a276d230327a203becd8cde8c1c33d6c51355dc2cd57862"
+  },
+  {
+    "index": 63,
+    "timestamp": "2026-02-25T13:52:31.895113Z",
+    "data": [
+      "{\"type\":\"state_commit\",\"commit_type\":\"explicit\",\"actor\":\"human\",\"prev_snapshot_hash\":\"ca2a4657a99c458bad8d928845159061ce91a1db3a5fceeb40c55f8ba05c1802\",\"next_snapshot_hash\":\"ca2a4657a99c458bad8d928845159061ce91a1db3a5fceeb40c55f8ba05c1802\",\"snapshot_ref\":\"snapshots/snapshot_20260225_145231_ca2a4657.json\",\"summary\":{\"L0_changed\":false,\"L1_added\":0,\"L1_modified\":0,\"L1_deleted\":0,\"L2_sessions_added\":0,\"L2_sessions_deleted\":0,\"promotions\":0,\"demotions\":0,\"total_changes\":0},\"reason\":\"CRITICAL-2根本原因確定: report_20260120=Naganoデータ、02_run_ni_comparison.pyが小麦データではなくNaganoデータを参照。修正計画(Option A/B)をL2に記録。\",\"timestamp\":\"2026-02-25T14:52:31+01:00\"}"
+    ],
+    "previous_hash": "1d3afc0901ca706e6a276d230327a203becd8cde8c1c33d6c51355dc2cd57862",
+    "merkle_root": "bb204b6355594b06048028cbefb534869fefc743ff3c9ed5cda9185c7c293c5d",
+    "hash": "c67f79ae3b0f7b71748b4af98232b8516875078cce1591e4660bc55bc80e3cfe"
+  },
+  {
+    "index": 64,
+    "timestamp": "2026-02-25T14:46:50.468970Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"iterative_review_cycle_pattern\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"5d8da9e04b983fec1060ad59e62715975fd72df0990a555941048d12bbe72c1f\",\"reason\":\"Registering the iterative review cycle pattern: multi-LLM diverge for plan/review, single LLM converge for implementation, with persona assembly as fallback. Discussed and confirmed with user 2026-02-25.\",\"timestamp\":\"2026-02-25T15:46:50+01:00\"}"
+    ],
+    "previous_hash": "c67f79ae3b0f7b71748b4af98232b8516875078cce1591e4660bc55bc80e3cfe",
+    "merkle_root": "957cbdfe1dd79b478bd0137fad2fc0a896562e13f4a876d400a1e407be3c5480",
+    "hash": "640e19a7d68b5b62a7a5efc3a5831b879c44f941ed050d2d8b071b7dec22a92d"
+  },
+  {
+    "index": 65,
+    "timestamp": "2026-02-25T19:45:12.411469Z",
+    "data": [
+      "{\"type\":\"system_upgrade\",\"from_version\":\"2.1.0\",\"to_version\":\"2.2.0\",\"actions\":{\"auto_updated\":[],\"merged\":[],\"l0_proposed\":[],\"skipped\":[],\"unchanged\":[\"skills/kairos.md\",\"skills/kairos_quickguide.md\",\"config/safety.yml\",\"config/tool_metadata.yml\"],\"knowledge_installed\":[],\"knowledge_updated\":[],\"knowledge_kept\":[],\"knowledge_conflict\":[]},\"timestamp\":\"2026-02-25T19:45:12Z\"}"
+    ],
+    "previous_hash": "640e19a7d68b5b62a7a5efc3a5831b879c44f941ed050d2d8b071b7dec22a92d",
+    "merkle_root": "c4889f17c8c8053c05abc7be01bab454290bfa5c024b3d3a064de16cad2f067f",
+    "hash": "4171c57a9a42228907c5e5d5815463c1b571eb4889100134fddb7f13ce21a9ef"
+  },
+  {
+    "index": 66,
+    "timestamp": "2026-03-02T17:49:36.059744Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"session_log_lifecycle\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"cb705434dd6e764d8520cdf7f6920c4173c7fd6e709dfc517b194b80dda655ac\",\"reason\":\"New L1 knowledge: session log lifecycle management pattern for L2 context, addressing accumulation of session logs and cross-session continuity\",\"timestamp\":\"2026-03-02T18:49:36+01:00\"}"
+    ],
+    "previous_hash": "4171c57a9a42228907c5e5d5815463c1b571eb4889100134fddb7f13ce21a9ef",
+    "merkle_root": "e2958fbeeefec8e9e7c62ef06c45f8283d377e3b754c049017ef5a530c989d0f",
+    "hash": "c639dd9000c95bacb2af134f93d0d12eea84a2c58348df518a263dc8becd0618"
+  },
+  {
+    "index": 67,
+    "timestamp": "2026-03-02T17:58:37.009057Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"session_log_lifecycle\",\"action\":\"update\",\"prev_hash\":\"cb705434dd6e764d8520cdf7f6920c4173c7fd6e709dfc517b194b80dda655ac\",\"next_hash\":\"196ff27916432316c5ff5a5d3b58f713e15b8273dcbc6f35bf926dd9e6694c28\",\"reason\":\"v1.1: Add project identifier naming convention for L2 logs to enable cross-project filtering without reading content\",\"timestamp\":\"2026-03-02T18:58:37+01:00\"}"
+    ],
+    "previous_hash": "c639dd9000c95bacb2af134f93d0d12eea84a2c58348df518a263dc8becd0618",
+    "merkle_root": "988f55ad0913b9a24485ffe0ea22f4473f18818add148867d292e5669b9d2695",
+    "hash": "1dd1e761fc1281e652708ac9f015349864941c7517c2bc68d3c49c0274ebdf86"
+  },
+  {
+    "index": 68,
+    "timestamp": "2026-03-03T08:43:48.485511Z",
+    "data": [
+      "{\"type\":\"system_upgrade\",\"from_version\":\"2.2.0\",\"to_version\":\"2.3.1\",\"actions\":{\"auto_updated\":[\"skills/kairos.rb\",\"skills/kairos.md\",\"skills/kairos_quickguide.md\",\"skills/kairos_tutorial.md\",\"skills/config.yml\"],\"merged\":[],\"l0_proposed\":[],\"skipped\":[],\"unchanged\":[\"config/safety.yml\",\"config/tool_metadata.yml\"],\"knowledge_installed\":[],\"knowledge_updated\":[],\"knowledge_kept\":[],\"knowledge_conflict\":[]},\"timestamp\":\"2026-03-03T08:43:48Z\"}"
+    ],
+    "previous_hash": "1dd1e761fc1281e652708ac9f015349864941c7517c2bc68d3c49c0274ebdf86",
+    "merkle_root": "326c88de2b7a88a7d31407fea5c6316422c77c2607b130d590496ae42bc019d3",
+    "hash": "e0642c3c915c2f00a3d43bbf21cafd2b33a9e99a21a2659a43e052ad6f152dd1"
+  },
+  {
+    "index": 69,
+    "timestamp": "2026-03-03T09:40:48.814189Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"scientific_poster_a0_design\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"0f2a528371d214eb2840cd1e66a431378e99001ecde7569f3b2c98630563e245\",\"reason\":\"Generalized from L2 poster_redesign_v2 session — iterative A0 poster design lessons covering layout, font sizing, text density, visual elements, PDF generation pitfalls\",\"timestamp\":\"2026-03-03T10:40:48+01:00\"}"
+    ],
+    "previous_hash": "e0642c3c915c2f00a3d43bbf21cafd2b33a9e99a21a2659a43e052ad6f152dd1",
+    "merkle_root": "a69d5fcf122ede2700685ea089be5a78c031289dce0188b1c8dfadd00284839a",
+    "hash": "98eefa9e9ac64a3439476cccd8321a30c09eb4f070479ba6bcdd37cebc1a174e"
+  },
+  {
+    "index": 70,
+    "timestamp": "2026-03-07T19:15:45.850507Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"revealjs_pdf_export_node\",\"action\":\"create\",\"prev_hash\":null,\"next_hash\":\"0c41282e68e8bb2af2393962adafcdc7b088dc3f583141acbd32c3587dd4e13e\",\"reason\":\"User requested to preserve the working method for converting Reveal.js presentations to PDF using Node/Puppeteer in this project.\",\"timestamp\":\"2026-03-07T20:15:45+01:00\"}"
+    ],
+    "previous_hash": "98eefa9e9ac64a3439476cccd8321a30c09eb4f070479ba6bcdd37cebc1a174e",
+    "merkle_root": "c1b5cc9d0cf0f601298d4dc85fc0ca112e8831ba4e2eb931f0b0cc2192eac403",
+    "hash": "13e8e8d443429d8818070455c423ba49f38a57b93b57437987c645e34bdc85c0"
+  },
+  {
+    "index": 71,
+    "timestamp": "2026-03-08T12:15:54.081661Z",
+    "data": [
+      "{\"type\":\"system_upgrade\",\"from_version\":\"2.3.1\",\"to_version\":\"2.8.0\",\"actions\":{\"auto_updated\":[\"skills/kairos_tutorial.md\"],\"merged\":[],\"l0_proposed\":[],\"skipped\":[\"skills/config.yml\"],\"unchanged\":[\"skills/kairos.rb\",\"skills/kairos.md\",\"skills/kairos_quickguide.md\",\"config/safety.yml\",\"config/tool_metadata.yml\"],\"knowledge_installed\":[\"synoptis_attestation\",\"synoptis_attestation_jp\"],\"knowledge_updated\":[\"hestiachain_meeting_place\",\"hestiachain_meeting_place_jp\",\"kairoschain_operations\",\"kairoschain_operations_jp\",\"kairoschain_usage\",\"kairoschain_usage_jp\",\"persona_definitions\"],\"knowledge_kept\":[],\"knowledge_conflict\":[]},\"timestamp\":\"2026-03-08T12:15:54Z\"}"
+    ],
+    "previous_hash": "13e8e8d443429d8818070455c423ba49f38a57b93b57437987c645e34bdc85c0",
+    "merkle_root": "e56e4baa04fe6f23711506953ab97091a25cede0f259b68818e55728a2905766",
+    "hash": "4cad638a088d3ac8dacfc71bb1fa22e653c597eccb8a2580c984449ee3502288"
+  },
+  {
+    "index": 72,
+    "timestamp": "2026-03-13T15:05:26.477649Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"gget_genomics_query_guide\",\"action\":\"update\",\"prev_hash\":\"a0bb81a33409a0b4b673912349735d74e3c3cb611672135826f4e1632a1853f4\",\"next_hash\":\"4cb151ae9707862cd533343618484166007c03ac04e1057c0179e988ab59f66a\",\"reason\":\"Persona Assembly approved (4/4 consensus). Fills critical gap: zero database access skills in L1. Source: K-Dense claude-scientific-skills (literature reference), adapted to ResearchersChain context. Rubric score: 91/100.\",\"timestamp\":\"2026-03-13T16:05:26+01:00\"}"
+    ],
+    "previous_hash": "4cad638a088d3ac8dacfc71bb1fa22e653c597eccb8a2580c984449ee3502288",
+    "merkle_root": "cd475bac923972289b4c9dc57d402f955de3d988de5ca8adbbeab7103b629a9e",
+    "hash": "bfc9bd1e0612ca1ed818c8d44463dacfa7fc87f699903ecd0a02a35ff1a39ae2"
+  },
+  {
+    "index": 73,
+    "timestamp": "2026-03-13T15:05:26.708834Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"pubmed_literature_retrieval\",\"action\":\"update\",\"prev_hash\":\"1bf59c2bfb42b6e2ca56977b6440b6b5647de34d5d5b5f8ff09f7573024c8efb\",\"next_hash\":\"471a150ae10a9b9ea02680c74d74903af355ef4b8f828c1320e812bb52f1628f\",\"reason\":\"Persona Assembly approved (4/4 consensus). Activates novelty_gap_mapper with operational search strategies. Source: K-Dense claude-scientific-skills (literature reference). Rubric score: 91/100.\",\"timestamp\":\"2026-03-13T16:05:26+01:00\"}"
+    ],
+    "previous_hash": "bfc9bd1e0612ca1ed818c8d44463dacfa7fc87f699903ecd0a02a35ff1a39ae2",
+    "merkle_root": "8dc7c3c024ccb3ccf9ba0a547b78b97acb5162d86b195cbfb0ff231aa7a20149",
+    "hash": "ca0959a55502c30b128f6aad6caa69bffa312c3b5893680a6330931941fa55a7"
+  },
+  {
+    "index": 74,
+    "timestamp": "2026-03-13T15:05:26.839990Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"uniprot_functional_annotation\",\"action\":\"update\",\"prev_hash\":\"e0e50f9fa6f7ef1db75aefd7600cdf40916871b424401daa7dc0815e537535b6\",\"next_hash\":\"0b6cc39b3d6d50f4ba6248ee5cb89c53ddc5656f203aa85b91091fffa597b494\",\"reason\":\"Persona Assembly approved (4/4 consensus). Essential for RNA-seq/proteomics functional interpretation. Source: K-Dense claude-scientific-skills (literature reference). Rubric score: 90/100.\",\"timestamp\":\"2026-03-13T16:05:26+01:00\"}"
+    ],
+    "previous_hash": "ca0959a55502c30b128f6aad6caa69bffa312c3b5893680a6330931941fa55a7",
+    "merkle_root": "b56dfbd9ddca3efd4863a51c227592c21c94e2a95bea90ca48e2ef614b1d9ec6",
+    "hash": "68f13bf75f3bbaf494c0802e88ae93cd72d3c33ac4e4f8933eb6eefad762146e"
+  },
+  {
+    "index": 75,
+    "timestamp": "2026-03-13T15:05:26.986397Z",
+    "data": [
+      "{\"type\":\"knowledge_update\",\"layer\":\"L1\",\"knowledge_id\":\"ncbi_entrez_access_patterns\",\"action\":\"update\",\"prev_hash\":\"a9725d50b4edb7c23275bba9c01c110a8f3c37bf99bc072646694b8bfbe9bbad\",\"next_hash\":\"d185bed62bd5dbfc362b5d7f9e5fafc2ff8acc53d310c5fe45471f9bcc661673\",\"reason\":\"Persona Assembly approved (4/4 consensus). Enables batch GEO/SRA/Gene/ClinVar access via BioPython Entrez. Complements gget (batch vs interactive). Source: K-Dense claude-scientific-skills (literature reference). Rubric score: 90/100.\",\"timestamp\":\"2026-03-13T16:05:26+01:00\"}"
+    ],
+    "previous_hash": "68f13bf75f3bbaf494c0802e88ae93cd72d3c33ac4e4f8933eb6eefad762146e",
+    "merkle_root": "f6617d576d50fbb943bec64d529cbe8d3bab75872b14f31101da50b43dea10a9",
+    "hash": "b7ca3465673c4d0cc76e02912bbacfcbd794005ade4deca6df6198f047a0e55f"
   }
 ]
