@@ -758,5 +758,25 @@
     "previous_hash": "68f13bf75f3bbaf494c0802e88ae93cd72d3c33ac4e4f8933eb6eefad762146e",
     "merkle_root": "f6617d576d50fbb943bec64d529cbe8d3bab75872b14f31101da50b43dea10a9",
     "hash": "b7ca3465673c4d0cc76e02912bbacfcbd794005ade4deca6df6198f047a0e55f"
+  },
+  {
+    "index": 76,
+    "timestamp": "2026-03-14T07:18:45.565700Z",
+    "data": [
+      "{\"skill_id\":\"instructions:researcher\",\"prev_ast_hash\":\"e864da596304b080538f88551fececd6b61d1975b7c07b4cf560f043382c4d04\",\"next_ast_hash\":\"0f9526935d1e1e29d8baec3979e73a1090f386a8e2559c1d5806b6a09792848b\",\"diff_hash\":\"14929f870f08f6835bf6eadf94e9570e9ef84f2bef1f6e95a58bdc8c3407660d\",\"actor\":\"AI\",\"agent_id\":\"Kairos\",\"timestamp\":\"2026-03-14T08:18:45+01:00\",\"reason_ref\":\"update_instructions: Upgrade from tutorial mode to researcher mode. Draft reviewed by 3-agent team (scientific rigor, KairosChain integration, UX/token efficiency) and refined through Persona Assembly discussion (kairos, conservative, pragmatic, skeptic — 2 rounds, full consensus). Key decisions: privacy preflight as mandatory gate (warn+acknowledge), Diamond Cycle compressed to 4 lines with L1 delegation, baseline knowledge expanded to 14 entries, session continuity scan added.\"}"
+    ],
+    "previous_hash": "b7ca3465673c4d0cc76e02912bbacfcbd794005ade4deca6df6198f047a0e55f",
+    "merkle_root": "4ec14ec8fec0cad8de289c207614a4f0f5435ea7c50491915971882dfad0f0aa",
+    "hash": "879f694c4b4b973277b2f5643679bd2a452df9922618c13d9a713f429fb4748c"
+  },
+  {
+    "index": 77,
+    "timestamp": "2026-03-14T07:18:54.118305Z",
+    "data": [
+      "{\"skill_id\":\"instructions:researcher\",\"prev_ast_hash\":\"fe30030e102ecf8fab72edd523758d54b314224d81ef9f50265efeac824fb56e\",\"next_ast_hash\":\"3588bb7219b1faa3d01f132a0c60a394258ccc3049d8e4a243b737e62524d147\",\"diff_hash\":\"a063e6155acf0cfec12d8919696b81c509f099b0f15b2447b76991c1aab499ba\",\"actor\":\"AI\",\"agent_id\":\"Kairos\",\"timestamp\":\"2026-03-14T08:18:54+01:00\",\"reason_ref\":\"set_instructions_mode: Switch from tutorial mode to researcher mode after full review process (3-agent review + Persona Assembly consensus).\"}"
+    ],
+    "previous_hash": "879f694c4b4b973277b2f5643679bd2a452df9922618c13d9a713f429fb4748c",
+    "merkle_root": "a3e4f2d0dfde3467d14f8f3cec5ade14f1c3125f171cdc57910e5410be994a05",
+    "hash": "043b7c815318fc9c8217fbc8123c8fded7d8b57ef990a04639467dd540c3b747"
   }
 ]
